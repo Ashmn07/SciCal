@@ -1,0 +1,133 @@
+/* css style colors
+a8e6cf
+05dfd7
+9de3d0
+beebe9
+66bfbf
+*/
+.but-space{
+  margin: 5% 3% 5% 0;
+}
+.c1{
+  font-size: 1.75rem;
+}
+.c-head{
+  font-family: 'Acme';
+  font-size: 2.5rem;
+}
+.card-price{
+  padding: 4% 3%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.container-fluid{
+  padding: 2% 12% 7%;
+}
+#contact{
+  padding: 5% 13%;
+  text-align: center;
+  background-color: #05dfd7;
+}
+.cont-style{
+  padding: 15px;
+}
+.f-desc{
+  color: #434e52;
+  font-family: 'Arvo';
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.f-head{
+  font-family: 'Squada One';
+  font-size: 3rem;
+  text-align: center;
+}
+#features{
+  padding: 7% 12%;
+  background-color: white;
+}
+.feature-heading{
+  font-family: 'Squada One';
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.features-style{
+    padding: 5%;
+    text-align: center;
+  }
+.fimg{
+  color: #9de3d0;
+}
+.fimg:hover{
+  color: #66bfbf;
+}
+.form-style{
+  padding: 30px;;
+}
+h1{
+  font-family: 'Raleway';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.hf{
+  font-family: 'Lobster';
+  font-size: 3rem;
+}
+.img-style{
+    transform: rotate(5deg);
+    position: absolute;
+    left:300px;
+}
+
+.navbar{
+  padding: 0 0 5rem 0;
+}
+.navbar-item{
+  padding: 0 3%;
+}
+.nav-link{
+  font-family: 'Philosopher';
+  text-align:center;
+  font-size: 1.3rem;
+}
+.plan{
+  font-family: 'Signika';
+}
+#pricing{
+  padding:5% 13%;
+  text-align: center;
+}
+#sneakpeek{
+  background-color: #9de3d0;
+  text-align: center;
+  color: #434e52;
+  padding: 5% 10%;
+}
+.sp-head{
+  font-family: 'Raleway';
+  font-size: 3rem;
+  text-align: center;
+}
+#sneakpeek h1{
+  font-family: 'Oswald';
+  font-size: 3rem;
+  text-align: center;
+}
+#title{
+  background-color: #66bfbf;
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  .img-style{
+    position: static;
+    transform: rotate(0);
+  }
+  #f1,#c2,#rad,#ang2{
+  margin-bottom: 20px;
+  }
+  #title{
+    text-align: center;
+  }
+}
